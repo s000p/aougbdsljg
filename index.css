@@ -1,5 +1,5 @@
-.box{
+body{
     width: 50vw;
     height: 50vh;
-    background-image: linear-gradient(red,blue);
+    background: pink;
 }
