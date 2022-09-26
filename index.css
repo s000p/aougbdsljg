@@ -1,4 +1,5 @@
-#grad {
-    background-image: linear-gradient(red, yellow);
-  }
-
+.box{
+    width: 50vw;
+    height: 50vh;
+    background-image: linear-gradient(red,blue);
+}
