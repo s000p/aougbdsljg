@@ -2,6 +2,7 @@
 <html lang="en">
   
 <head>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="css" href="index.css">
   <div class="box"></div>
     <link rel="icon" href=" https://pbs.twimg.com/profile_images/1559281520183021569/TYxa8is7_400x400.jpg">
@@ -13,28 +14,47 @@
     <style>
       body { 
           background: url("https://i.imgur.com/LFHsmmg.png");
-          height: 700px;
+          height: 600px;
           background-position: center;
           background-repeat: no-repeat;
           background-size: cover;
       }
       nav {
-    	text-align: right;
-        padding: 70px;
+	text-decoration: none;
+       	text-align: right;
         float: right;
-        word-spacing: 50px;
         font-size: 24px;
+        font-family: 'Fredoka One', cursive;
+        
+
       }
+       #navbar {
+	 color: red;
+  		list-style-type: none;
+  		overflow: hidden;
+        text-decoration: none;
+        
+      }
+      
+      li {
+      text-decoration: none;
+      color: red;
+      float: left;
+      padding:35px;
+      
+      }
+     
       </style>
 </head>
   <img src="https://i.postimg.cc/kXHwD3T9/Sin-t-tulo-b-1.png" width="300" alt="image fail to load">
 
  <nav>
-  
-  	<a href="index.html">home</a>
-  	<a href="about.html">about</a>
-    <a href="talent.html">talent</a>
-  	<a href="merch.html">merch</a>
+ 	<ul id="navbar">
+      <li><a href="index.html">HOME</a>
+      <li><a href="about.html">ABOUT</a>
+      <li><a href="talent.html">TALENT</a>
+      <li ><a href="merch.html">MERCH</a>
+    </ul>
 
     <form>
       <select name="language" id="language">
